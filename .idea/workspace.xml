@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adaf14e5-2539-4c8d-96a3-9c87e3c2b3b8" name="Default Changelist" comment="" />
+    <list default="true" id="adaf14e5-2539-4c8d-96a3-9c87e3c2b3b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Faker/MobileProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Faker/MobileProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Providers/FakerServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Providers/FakerServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,17 +168,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Faker" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\transfer\src\app\Services" />
-      <recent name="D:\projects\transfer\src\app\Repositories" />
+      <recent name="D:\projects\transfer\src\app\Faker" />
+      <recent name="D:\projects\transfer\src\database\seeders" />
+      <recent name="D:\projects\transfer\src\database\factories" />
       <recent name="D:\projects\transfer\src\app\Models" />
-      <recent name="D:\projects\transfer\src\app\Http\Requests" />
-      <recent name="D:\projects\transfer\src\app\Http\Controllers" />
+      <recent name="D:\projects\transfer\src\app\Services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\transfer\src\database\factories" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -183,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656581251211</updated>
-      <workItem from="1656581253182" duration="8472000" />
+      <workItem from="1656581253182" duration="14276000" />
     </task>
     <servers />
   </component>

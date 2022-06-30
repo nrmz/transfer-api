@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Faker\CreditCardProvider;
 use App\Faker\MobileProvider;
 use Faker\{Factory, Generator};
 use Illuminate\Support\ServiceProvider;
@@ -18,6 +19,7 @@ class FakerServiceProvider extends ServiceProvider
         $this->app->singleton(Generator::class, function () {
             $faker = Factory::create();
             $faker->addProvider(new MobileProvider($faker));
+            $faker->addProvider(new CreditCardProvider($faker));
             return $faker;
         });
     }
