@@ -156,6 +156,8 @@ return array(
         'percent' => 'درصد',
         'images' => 'تصویر',
         'status' => 'وضعیت',
-        'province_id' => 'شناسه استان'
+        'amount' => 'مبلغ',
+        'source_card_number' => 'شماره کارت مبدا',
+        'destination_card_number' => 'شماره کارت مقصد',
     )
 );

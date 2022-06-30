@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\TransactionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,6 @@ use App\Http\Controllers\Auth\RegisterController;
 
 Route::post('login', [LoginController::class, 'index'])->name('login');
 Route::post('register', [RegisterController::class, 'index']);
+
+
+Route::post('transaction', [TransactionController::class, 'store']);

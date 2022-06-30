@@ -18,11 +18,14 @@ return array(
     'delete_successfully'     => 'اطلاعات حذف شد',
     'created'     => 'اطلاعات ثبت شد',
     'forbidden'     => 'اجازه ثبت نظر ندارید',
+    'not_enough_money'     => 'موجودی کافی نیست',
     'invalid_chart_detail_id'     => 'جزيیات چارت نادرست است',
     'error_in_created'     => 'خطا در ثبت اطلاعات',
     'user_login_successfully'     => 'با موفقبت وارد شدید',
     'user_register_successfully'     => 'با موفقبت ثبت نام انجام شد',
     'order_register_successfully'     => 'سفارش شما با موفقیت ثبت شد',
     'user_login_failed'     => 'خطا در ورود',
-    'unauthenticated'  => 'عدم احراز هویت'
+    'unauthenticated'  => 'عدم احراز هویت',
+    'deposit' =>'پیامک واریز : :amount , از کارت: :source_card_number ',
+    'withdrawal' =>'پیامک برداشت : :amount ,  به کارت: :destination_card_number',
 );

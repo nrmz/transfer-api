@@ -19,7 +19,7 @@ class AccountFactory extends Factory
     {
         return [
             'account_number' => $this->faker->unique()->numerify('##########'),
-            'inventory' => randomNumber($this->faker->numberBetween(5, 15), true),
+            'balance' => randomNumber($this->faker->numberBetween(5, 15), true),
             'user_id' => User::all()->random()->id,
         ];
     }

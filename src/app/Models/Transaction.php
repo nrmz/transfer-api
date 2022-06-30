@@ -5,14 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Card extends Model
+class Transaction extends Model
 {
     use HasFactory;
 
-
-    public function account()
-    {
-        return $this->belongsTo(Account::class);
-
-    }
+    protected $fillable=['source_card_id', 'destination_card_id', 'amount'];
 }

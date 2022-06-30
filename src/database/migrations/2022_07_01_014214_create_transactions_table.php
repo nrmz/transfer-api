@@ -13,12 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('accounts', function (Blueprint $table) {
+        Schema::create('transactions', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('account_number', 10)->unique();
-            $table->bigInteger('balance')->unsigned();
-            $table->integer('user_id')->unsigned()->nullable();
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->integer('source_card_id')->unsigned()->nullable();
+            $table->foreign('source_card_id')->references('id')->on('cards');
+            $table->integer('destination_card_id')->unsigned()->nullable();
+            $table->foreign('destination_card_id')->references('id')->on('cards');
+            $table->integer('amount')->unsigned();
             $table->timestamps();
         });
     }
@@ -30,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('accounts');
+        Schema::dropIfExists('transactions');
     }
 };

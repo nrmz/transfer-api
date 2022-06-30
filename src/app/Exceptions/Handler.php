@@ -70,11 +70,12 @@ class Handler extends ExceptionHandler
             );
         }
 
-        return response()->error(
-            __('messages.bad_request'),
-            Response::HTTP_BAD_REQUEST,
-            $e->getMessage()
-        );
+        return parent::render($request, $e);
+//        return response()->error(
+//            __('messages.bad_request'),
+//            Response::HTTP_BAD_REQUEST,
+//            $e->getMessage()
+//        );
 
     }
 
