@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adaf14e5-2539-4c8d-96a3-9c87e3c2b3b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Card.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Card.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/factories/AccountFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/factories/AccountFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2022_06_30_165639_create_accounts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2022_06_30_165639_create_accounts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/fa/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/fa/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/fa/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/fa/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656581251211</updated>
       <workItem from="1656581253182" duration="28194000" />
-      <workItem from="1656623141004" duration="2057000" />
+      <workItem from="1656623141004" duration="3351000" />
     </task>
     <servers />
   </component>
