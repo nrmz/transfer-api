@@ -7,6 +7,7 @@ use App\Repositories\AccountRepository;
 use App\Repositories\CardRepository;
 use App\Repositories\transactionRepository;
 use App\Http\Notification\Interface\SendSmsInterface;
+use App\Repositories\FeeRepository;
 use Illuminate\Support\Facades\DB;
 
 class TransactionService
@@ -14,12 +15,16 @@ class TransactionService
     private $transactionRepository;
     private $cardRepository;
     private $accountRepository;
+    private $wageRepository;
     private $sendSmsService;
+
+    private const FEE = 500;
 
     public function __construct(
         transactionRepository $transactionRepository,
         CardRepository $cardRepository,
         AccountRepository $accountRepository,
+        FeeRepository $feeRepository,
         SendSmsInterface $sendSmsService
     )
     {
@@ -27,6 +32,7 @@ class TransactionService
         $this->cardRepository = $cardRepository;
         $this->accountRepository = $accountRepository;
         $this->sendSmsService = $sendSmsService;
+        $this->feeRepository = $feeRepository;
     }
 
     public function createTransaction($transactionData)
@@ -42,10 +48,10 @@ class TransactionService
         DB::beginTransaction();
         try {
             do {
-                if($sourceAccount->balance < $transactionData['amount']){
+                if($sourceAccount->balance < $transactionData['amount'] + self::FEE){
                     throw new InsufficientBalanceException();
                 }
-                $updated = $this->accountRepository->decreaseAmount($sourceAccount, $transactionData['amount']);
+                $updated = $this->accountRepository->decreaseAmount($sourceAccount, $transactionData['amount'] + self::FEE);
             } while (!$updated);
 
             do {
@@ -74,9 +80,14 @@ class TransactionService
                     'transaction_id' => $transaction->id
                 ]));
 
+            $this->feeRepository->create($transaction->id, self::FEE);
+
             DB::commit();
+
             return $transaction;
-        } catch (\Exception $e) {
+        }
+        catch (\Exception $e)
+        {
             DB::rollback();
             throw new \ErrorException(__('messages.try_again_later'));
         }
