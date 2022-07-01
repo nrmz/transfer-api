@@ -70,13 +70,13 @@ class Handler extends ExceptionHandler
             );
         }
 
-        return parent::render($request, $e);
-//        return response()->error(
-//            __('messages.bad_request'),
-//            Response::HTTP_BAD_REQUEST,
-//            $e->getMessage()
-//        );
+        return response()->error(
+            $e->getMessage(),
+            Response::HTTP_BAD_REQUEST,
+            true
+        );
 
+//        return parent::render($request, $e);
     }
 
     protected function unauthenticated($request, AuthenticationException $exception)

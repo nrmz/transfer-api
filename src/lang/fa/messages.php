@@ -26,6 +26,7 @@ return array(
     'order_register_successfully'     => 'سفارش شما با موفقیت ثبت شد',
     'user_login_failed'     => 'خطا در ورود',
     'unauthenticated'  => 'عدم احراز هویت',
-    'deposit' =>'پیامک واریز : :amount , از کارت: :source_card_number ',
-    'withdrawal' =>'پیامک برداشت : :amount ,  به کارت: :destination_card_number',
+    'try_again_later'  => 'خطا در ثبت اطلاعات لطفا دوباره تلاش کنید',
+    'deposit' =>'پیامک واریز , از کارت: :source , به کارت: :destination , مبلغ: :amount, موجودی: :balance, تاریخ: :date, کدپیگیری: :transaction_id',
+    'withdraw' =>'پیامک برداشت  , از کارت: :source , به کارت: :destination , مبلغ: :amount, موجودی: :balance, تاریخ: :date, کدپیگیری: :transaction_id',
 );
