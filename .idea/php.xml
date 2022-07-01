@@ -128,6 +128,7 @@
       <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-ignition" />
       <path value="$PROJECT_DIR$/src/vendor/spatie/ignition" />
       <path value="$PROJECT_DIR$/src/vendor/ybazli/faker" />
+      <path value="$PROJECT_DIR$/src/vendor/staudenmeir/eloquent-has-many-deep" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

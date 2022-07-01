@@ -19,6 +19,12 @@ class UserService
         return $this->userRepository->create($userData);
     }
 
+    public function getListOfUserWithMaxTransaction()
+    {
+        return $this->userRepository->listUserWithMaxTransaction();
+
+    }
+
     public function login($userLoginData)
     {
         $user = null;

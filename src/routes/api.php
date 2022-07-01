@@ -3,6 +3,7 @@
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\TransactionController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,4 @@ Route::post('register', [RegisterController::class, 'index']);
 
 
 Route::post('transaction', [TransactionController::class, 'store']);
+Route::get('user', [UserController::class, 'index']);

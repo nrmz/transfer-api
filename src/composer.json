@@ -11,6 +11,7 @@
         "laravel/passport": "^10.4",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
+        "staudenmeir/eloquent-has-many-deep": "^1.7",
         "ybazli/faker": "^1.0"
     },
     "require-dev": {

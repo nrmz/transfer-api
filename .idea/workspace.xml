@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adaf14e5-2539-4c8d-96a3-9c87e3c2b3b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/transfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/transfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Card.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Repositories/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +164,7 @@
       <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-ignition" />
       <path value="$PROJECT_DIR$/src/vendor/spatie/ignition" />
       <path value="$PROJECT_DIR$/src/vendor/ybazli/faker" />
+      <path value="$PROJECT_DIR$/src/vendor/staudenmeir/eloquent-has-many-deep" />
     </include_path>
   </component>
   <component name="ProjectId" id="2BI6SKUKfmTF86eUt2L0HUT3gAY" />
@@ -165,18 +177,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Notification" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Http/Resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\transfer\src\app\Http\Resources" />
+      <recent name="D:\projects\transfer\src\app\Http\Controllers" />
       <recent name="D:\projects\transfer\src\app\Notification" />
       <recent name="D:\projects\transfer\src\app" />
       <recent name="D:\projects\transfer\src\app\Repositories" />
-      <recent name="D:\projects\transfer\src\app\Services" />
-      <recent name="D:\projects\transfer\src\app\Faker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\transfer\src\app\Http" />
@@ -193,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656581251211</updated>
       <workItem from="1656581253182" duration="28194000" />
-      <workItem from="1656623141004" duration="17078000" />
+      <workItem from="1656623141004" duration="31881000" />
     </task>
     <servers />
   </component>
