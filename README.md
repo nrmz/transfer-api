@@ -117,18 +117,28 @@
 ```docker-compose run --rm artisan passport:install```
 
 <div lang="fa" dir="rtl">
-- همچنین برای ساخت مجدد آن می توانید از دستور زیر استفاده نمایید
-</div>
-
-```docker-compose run --rm artisan erd:generate```
-
-<div lang="fa" dir="rtl">
 - با استفاده از اطلاعات زیر می توانید با متد login در پست من وارد شوید
 </div>
 
 ```"mobile": "09128458991"```
 
 ```"password": "password"```
+
+<div lang="fa" dir="rtl">
+- برای تنظیم ارسال پیامک باید پارامتر های زیر در فایل .env وارد نمایید و در حال حاضر از سامانه های kavenegar , smsir پشتیبانی می شودو و پیامک ها در فایل لاگ ثبت می شود
+
+</div>
+
+```SMS_PROVIDER_NAME=kavenegar```
+
+```SMS_PROVIDER_API_KEY=123456```
+
+<div lang="fa" dir="rtl">
+- برای تغییر متن پیام می توانید به فایل زیر مراجعه کنید و متن پیام واریز و برداشت را ویرایش نمایید
+
+</div>
+
+```./src/lang/fa/messages/```
 
 ## پست من
 

@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adaf14e5-2539-4c8d-96a3-9c87e3c2b3b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Services/TransactionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/TransactionService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/fa/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/fa/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656581251211</updated>
       <workItem from="1656581253182" duration="28194000" />
-      <workItem from="1656623141004" duration="16520000" />
+      <workItem from="1656623141004" duration="17078000" />
     </task>
     <servers />
   </component>
